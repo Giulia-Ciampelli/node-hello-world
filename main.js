@@ -11,3 +11,6 @@ console.log('hello node js');
 
 const pin = process.env.PIN;
 console.log(pin);
+
+const string = process.argv[2];
+console.log(string);
