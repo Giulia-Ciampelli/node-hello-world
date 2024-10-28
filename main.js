@@ -14,3 +14,11 @@ console.log(pin);
 
 const string = process.argv[2];
 console.log(string);
+
+// PIN=7272727272727272; admin-segreto;
+if (pin == 7272727272727272 && string === 'admin-segreto') {
+    console.log('Welcome Admin');
+}
+else {
+    console.log('Access restriced');
+}
